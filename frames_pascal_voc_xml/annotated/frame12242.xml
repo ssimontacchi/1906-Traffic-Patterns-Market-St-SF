@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<annotation>
+<folder>frames</folder>
+<filename>frame12242.jpg</filename>
+<path>/Users/Scott/galvanize/1906_Traffic_Patterns_Market_St_SF/frames/frame12242.jpg</path>
+<source>
+    <database>Unknown</database>
+</source>
+<size>
+    <width>540</width>
+    <height>360</height>
+    <depth>3</depth>
+</size>
+
+<segmented>0</segmented>
+    <object>
+    <name>horse</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>212</xmin>
+        <ymin>127</ymin>
+        <xmax>295</xmax>
+        <ymax>257</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name> carriage</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>203</xmin>
+        <ymin>90</ymin>
+        <xmax>522</xmax>
+        <ymax>290</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name> person</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>101</xmin>
+        <ymin>132</ymin>
+        <xmax>152</xmax>
+        <ymax>242</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>car</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>174</xmin>
+        <ymin>122</ymin>
+        <xmax>237</xmax>
+        <ymax>191</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name> carriage</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>8</xmin>
+        <ymin>105</ymin>
+        <xmax>78</xmax>
+        <ymax>164</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name> carriage</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>156</xmin>
+        <ymin>107</ymin>
+        <xmax>192</xmax>
+        <ymax>163</ymax>
+    </bndbox>
+</object>
+</annotation>

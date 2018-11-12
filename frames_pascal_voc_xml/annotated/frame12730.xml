@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<annotation>
+<folder>frames</folder>
+<filename>frame12730.jpg</filename>
+<path>/Users/Scott/galvanize/1906_Traffic_Patterns_Market_St_SF/frames/frame12730.jpg</path>
+<source>
+    <database>Unknown</database>
+</source>
+<size>
+    <width>540</width>
+    <height>360</height>
+    <depth>3</depth>
+</size>
+
+<segmented>0</segmented>
+    <object>
+    <name> carriage</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>448</xmin>
+        <ymin>81</ymin>
+        <xmax>540</xmax>
+        <ymax>259</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name> carriage</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>66</xmin>
+        <ymin>83</ymin>
+        <xmax>268</xmax>
+        <ymax>202</ymax>
+    </bndbox>
+</object>
+</annotation>

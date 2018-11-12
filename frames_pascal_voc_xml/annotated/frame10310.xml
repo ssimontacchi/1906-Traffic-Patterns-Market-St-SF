@@ -1,0 +1,112 @@
+<?xml version="1.0" ?>
+<annotation>
+<folder>frames</folder>
+<filename>frame10310.jpg</filename>
+<path>/Users/Scott/galvanize/1906_Traffic_Patterns_Market_St_SF/frames/frame10310.jpg</path>
+<source>
+    <database>Unknown</database>
+</source>
+<size>
+    <width>540</width>
+    <height>360</height>
+    <depth>3</depth>
+</size>
+
+<segmented>0</segmented>
+    <object>
+    <name> trolley</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>-3</xmin>
+        <ymin>71</ymin>
+        <xmax>157</xmax>
+        <ymax>222</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name> person</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>291</xmin>
+        <ymin>122</ymin>
+        <xmax>320</xmax>
+        <ymax>187</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name> person</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>316</xmin>
+        <ymin>124</ymin>
+        <xmax>346</xmax>
+        <ymax>201</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name> person</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>339</xmin>
+        <ymin>127</ymin>
+        <xmax>367</xmax>
+        <ymax>192</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name> person</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>444</xmin>
+        <ymin>128</ymin>
+        <xmax>476</xmax>
+        <ymax>184</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name> person</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>503</xmin>
+        <ymin>119</ymin>
+        <xmax>530</xmax>
+        <ymax>184</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>car</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>220</xmin>
+        <ymin>102</ymin>
+        <xmax>323</xmax>
+        <ymax>168</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>car</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>357</xmin>
+        <ymin>111</ymin>
+        <xmax>458</xmax>
+        <ymax>172</ymax>
+    </bndbox>
+</object>
+</annotation>

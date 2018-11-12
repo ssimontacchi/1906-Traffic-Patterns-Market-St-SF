@@ -1,0 +1,112 @@
+<?xml version="1.0" ?>
+<annotation>
+<folder>frames</folder>
+<filename>frame11094.jpg</filename>
+<path>/Users/Scott/galvanize/1906_Traffic_Patterns_Market_St_SF/frames/frame11094.jpg</path>
+<source>
+    <database>Unknown</database>
+</source>
+<size>
+    <width>540</width>
+    <height>360</height>
+    <depth>3</depth>
+</size>
+
+<segmented>0</segmented>
+    <object>
+    <name> trolley</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>26</xmin>
+        <ymin>64</ymin>
+        <xmax>167</xmax>
+        <ymax>212</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name> person</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>304</xmin>
+        <ymin>134</ymin>
+        <xmax>334</xmax>
+        <ymax>197</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name> person</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>422</xmin>
+        <ymin>127</ymin>
+        <xmax>469</xmax>
+        <ymax>200</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name> person</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>499</xmin>
+        <ymin>122</ymin>
+        <xmax>525</xmax>
+        <ymax>168</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name> person</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>240</xmin>
+        <ymin>118</ymin>
+        <xmax>255</xmax>
+        <ymax>152</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name> cyclist</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>255</xmin>
+        <ymin>118</ymin>
+        <xmax>280</xmax>
+        <ymax>157</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name> carriage</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>330</xmin>
+        <ymin>108</ymin>
+        <xmax>385</xmax>
+        <ymax>170</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name> carriage</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>428</xmin>
+        <ymin>115</ymin>
+        <xmax>485</xmax>
+        <ymax>175</ymax>
+    </bndbox>
+</object>
+</annotation>
