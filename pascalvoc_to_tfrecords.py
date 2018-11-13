@@ -48,12 +48,12 @@ import tensorflow as tf
 
 import xml.etree.ElementTree as ET
 
-from datasets.dataset_utils import int64_feature, float_feature, bytes_feature
-from datasets.pascalvoc_common import VOC_LABELS
+from dataset_util import int64_feature, float_feature, bytes_feature
+from pascalvoc_common import VOC_LABELS
 
 # Original dataset organisation.
-DIRECTORY_ANNOTATIONS = 'Annotations/'
-DIRECTORY_IMAGES = 'JPEGImages/'
+DIRECTORY_ANNOTATIONS = 'training_data/Annotations/'
+DIRECTORY_IMAGES = 'training_data/JPEGImages/'
 
 # TFRecords convertion parameters.
 RANDOM_SEED = 4242
