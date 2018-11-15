@@ -1,11 +1,10 @@
 """
 Usage:
-  # Adapted from tensorflow/models/
+  # From tensorflow/models/
   # Create train data:
   python generate_tfrecord.py --csv_input=data/train_labels.csv  --output_path=train.record
   # Create test data:
   python generate_tfrecord.py --csv_input=data/test_labels.csv  --output_path=test.record
-  # Adapted from datitran's raccoon dataset
 """
 from __future__ import division
 from __future__ import print_function
@@ -93,7 +92,7 @@ def create_tf_example(group, path):
 
 def main(_):
     writer = tf.python_io.TFRecordWriter(FLAGS.output_path)
-    path = os.path.join(os.getcwd(), 'training_data/JPEGImages')
+    path = os.path.join(os.getcwd(), 'images')
     examples = pd.read_csv(FLAGS.csv_input)
     grouped = split(examples, 'filename')
     for group in grouped:
