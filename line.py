@@ -14,11 +14,13 @@ class Line:
         self.y1 = np.float32(y1)
         self.x2 = np.float32(x2)
         self.y2 = np.float32(y2)
-
+        
         self.slope = self.compute_slope()
         self.b = self.compute_b()
 
     def compute_slope(self):
+        if (int((self.x2 - self.x1))==0):
+            return 100000
         return (self.y2 - self.y1) / (self.x2 - self.x1)
 
     def compute_b(self):
