@@ -16,6 +16,7 @@ import colorsys
 import numpy as np
 from skimage.measure import find_contours
 import matplotlib.pyplot as plt
+plt.ioff()
 from matplotlib import patches,  lines
 from matplotlib.patches import Polygon
 import IPython.display
@@ -110,8 +111,8 @@ def display_instances(image, boxes, masks, class_ids, class_names,
     # If no axis is passed, create one and automatically call show()
     auto_show = False
     if not ax:
-        _, ax = plt.subplots(1, figsize=figsize)
-        auto_show = True
+        fig, ax = plt.subplots(1, figsize=figsize)
+        #auto_show = True
 
     # Generate random colors
     colors = colors or random_colors(N)
@@ -169,6 +170,8 @@ def display_instances(image, boxes, masks, class_ids, class_names,
             if class_id == 1: # ONLY PEOPLE EDIT!!!!
                 ax.add_patch(p)
     #ax.imshow(masked_image.astype(np.uint8))
+    plt.close(fig)
+
     return masked_image.astype(np.uint8)
     #if auto_show:
     #    plt.show()
